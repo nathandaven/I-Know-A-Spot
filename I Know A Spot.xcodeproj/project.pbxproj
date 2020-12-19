@@ -3,23 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B91BD45C258B0E6700BD2276 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91BD45B258B0E6700BD2276 /* CardView.swift */; };
+		B91BD45F258B0FE800BD2276 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91BD45E258B0FE800BD2276 /* Landmark.swift */; };
 		B9894FCD25896484001B4CC2 /* I_Know_A_SpotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9894FCC25896484001B4CC2 /* I_Know_A_SpotApp.swift */; };
-		B9894FCF25896484001B4CC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9894FCE25896484001B4CC2 /* ContentView.swift */; };
+		B9894FCF25896484001B4CC2 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9894FCE25896484001B4CC2 /* TestView.swift */; };
 		B9894FD125896485001B4CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9894FD025896485001B4CC2 /* Assets.xcassets */; };
 		B9894FD425896485001B4CC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9894FD325896485001B4CC2 /* Preview Assets.xcassets */; };
+		B98FC971258966F50078EC13 /* GoogleMapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98FC970258966F50078EC13 /* GoogleMapsView.swift */; };
+		B98FC974258969730078EC13 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98FC973258969730078EC13 /* LocationManager.swift */; };
+		B98FC97A258969C40078EC13 /* PlacesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98FC979258969C40078EC13 /* PlacesList.swift */; };
+		B98FC97D258969DB0078EC13 /* PlaceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98FC97C258969DB0078EC13 /* PlaceRow.swift */; };
+		B98FC98025896A000078EC13 /* PlacesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98FC97F25896A000078EC13 /* PlacesManager.swift */; };
+		B9B7D6CE258D207C0022BE19 /* PlaceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B7D6CD258D207C0022BE19 /* PlaceCardView.swift */; };
+		B9B7D6D2258D35840022BE19 /* CustomPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B7D6D1258D35840022BE19 /* CustomPlace.swift */; };
+		B9B7D6DC258D434C0022BE19 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B7D6DB258D434C0022BE19 /* ContentView.swift */; };
+		FAEEF5C51F5EE17E270E1A01 /* Pods_I_Know_A_Spot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B74B214387BC7B2EB545771 /* Pods_I_Know_A_Spot.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		020EBA176828F88CD8FB492E /* Pods-I Know A Spot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-I Know A Spot.release.xcconfig"; path = "Target Support Files/Pods-I Know A Spot/Pods-I Know A Spot.release.xcconfig"; sourceTree = "<group>"; };
+		8B74B214387BC7B2EB545771 /* Pods_I_Know_A_Spot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_I_Know_A_Spot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C1BFCC72A6C0896713E0432 /* Pods-I Know A Spot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-I Know A Spot.debug.xcconfig"; path = "Target Support Files/Pods-I Know A Spot/Pods-I Know A Spot.debug.xcconfig"; sourceTree = "<group>"; };
+		B91BD45B258B0E6700BD2276 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B91BD45E258B0FE800BD2276 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		B9894FC925896484001B4CC2 /* I Know A Spot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I Know A Spot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9894FCC25896484001B4CC2 /* I_Know_A_SpotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_Know_A_SpotApp.swift; sourceTree = "<group>"; };
-		B9894FCE25896484001B4CC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B9894FCE25896484001B4CC2 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		B9894FD025896485001B4CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9894FD325896485001B4CC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B9894FD525896485001B4CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B98FC970258966F50078EC13 /* GoogleMapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsView.swift; sourceTree = "<group>"; };
+		B98FC973258969730078EC13 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		B98FC979258969C40078EC13 /* PlacesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesList.swift; sourceTree = "<group>"; };
+		B98FC97C258969DB0078EC13 /* PlaceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceRow.swift; sourceTree = "<group>"; };
+		B98FC97F25896A000078EC13 /* PlacesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesManager.swift; sourceTree = "<group>"; };
+		B9B7D6CD258D207C0022BE19 /* PlaceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCardView.swift; sourceTree = "<group>"; };
+		B9B7D6D1258D35840022BE19 /* CustomPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlace.swift; sourceTree = "<group>"; };
+		B9B7D6DB258D434C0022BE19 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEEF5C51F5EE17E270E1A01 /* Pods_I_Know_A_Spot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14ECBF0F2135347932AD811C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B74B214387BC7B2EB545771 /* Pods_I_Know_A_Spot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B9894FC025896484001B4CC2 = {
 			isa = PBXGroup;
 			children = (
 				B9894FCB25896484001B4CC2 /* I Know A Spot */,
 				B9894FCA25896484001B4CC2 /* Products */,
+				FB0AD42B35728684220218E8 /* Pods */,
+				14ECBF0F2135347932AD811C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +87,12 @@
 		B9894FCB25896484001B4CC2 /* I Know A Spot */ = {
 			isa = PBXGroup;
 			children = (
+				B98FC96E258966A00078EC13 /* Managers */,
+				B98FC96D258966960078EC13 /* Models */,
+				B98FC96C2589668F0078EC13 /* Views */,
 				B9894FCC25896484001B4CC2 /* I_Know_A_SpotApp.swift */,
-				B9894FCE25896484001B4CC2 /* ContentView.swift */,
+				B9894FCE25896484001B4CC2 /* TestView.swift */,
+				B9B7D6DB258D434C0022BE19 /* ContentView.swift */,
 				B9894FD025896485001B4CC2 /* Assets.xcassets */,
 				B9894FD525896485001B4CC2 /* Info.plist */,
 				B9894FD225896485001B4CC2 /* Preview Content */,
@@ -69,6 +108,45 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B98FC96C2589668F0078EC13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B98FC970258966F50078EC13 /* GoogleMapsView.swift */,
+				B98FC979258969C40078EC13 /* PlacesList.swift */,
+				B98FC97C258969DB0078EC13 /* PlaceRow.swift */,
+				B91BD45B258B0E6700BD2276 /* CardView.swift */,
+				B9B7D6CD258D207C0022BE19 /* PlaceCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B98FC96D258966960078EC13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B91BD45E258B0FE800BD2276 /* Landmark.swift */,
+				B9B7D6D1258D35840022BE19 /* CustomPlace.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B98FC96E258966A00078EC13 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B98FC973258969730078EC13 /* LocationManager.swift */,
+				B98FC97F25896A000078EC13 /* PlacesManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		FB0AD42B35728684220218E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C1BFCC72A6C0896713E0432 /* Pods-I Know A Spot.debug.xcconfig */,
+				020EBA176828F88CD8FB492E /* Pods-I Know A Spot.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9894FD825896485001B4CC2 /* Build configuration list for PBXNativeTarget "I Know A Spot" */;
 			buildPhases = (
+				E42FBF7FDC963C713D8A631D /* [CP] Check Pods Manifest.lock */,
 				B9894FC525896484001B4CC2 /* Sources */,
 				B9894FC625896484001B4CC2 /* Frameworks */,
 				B9894FC725896484001B4CC2 /* Resources */,
+				E843A1346D406FD7BE7B60C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,13 +213,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E42FBF7FDC963C713D8A631D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-I Know A Spot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E843A1346D406FD7BE7B60C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-I Know A Spot/Pods-I Know A Spot-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-I Know A Spot/Pods-I Know A Spot-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-I Know A Spot/Pods-I Know A Spot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B9894FC525896484001B4CC2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9894FCF25896484001B4CC2 /* ContentView.swift in Sources */,
+				B9B7D6D2258D35840022BE19 /* CustomPlace.swift in Sources */,
+				B98FC974258969730078EC13 /* LocationManager.swift in Sources */,
+				B9B7D6DC258D434C0022BE19 /* ContentView.swift in Sources */,
+				B98FC971258966F50078EC13 /* GoogleMapsView.swift in Sources */,
+				B98FC98025896A000078EC13 /* PlacesManager.swift in Sources */,
+				B98FC97D258969DB0078EC13 /* PlaceRow.swift in Sources */,
+				B9894FCF25896484001B4CC2 /* TestView.swift in Sources */,
+				B91BD45F258B0FE800BD2276 /* Landmark.swift in Sources */,
 				B9894FCD25896484001B4CC2 /* I_Know_A_SpotApp.swift in Sources */,
+				B91BD45C258B0E6700BD2276 /* CardView.swift in Sources */,
+				B98FC97A258969C40078EC13 /* PlacesList.swift in Sources */,
+				B9B7D6CE258D207C0022BE19 /* PlaceCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +396,7 @@
 		};
 		B9894FD925896485001B4CC2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C1BFCC72A6C0896713E0432 /* Pods-I Know A Spot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +419,7 @@
 		};
 		B9894FDA25896485001B4CC2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 020EBA176828F88CD8FB492E /* Pods-I Know A Spot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
